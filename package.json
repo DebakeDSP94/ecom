@@ -1,0 +1,24 @@
+{
+  "name": "ecom",
+  "version": "1.0.0",
+  "description": "create an e-commerce app in JS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DebakeDSP94/ecom.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DebakeDSP94/ecom/issues"
+  },
+  "homepage": "https://github.com/DebakeDSP94/ecom#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  }
+}
