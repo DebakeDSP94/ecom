@@ -1,27 +1,27 @@
 {
-  "name": "ecom",
-  "version": "1.0.0",
-  "description": "create an e-commerce app in JS",
-  "main": "index.js",
-  "scripts": {
-    "dev": "nodemon index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DebakeDSP94/ecom.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/DebakeDSP94/ecom/issues"
-  },
-  "homepage": "https://github.com/DebakeDSP94/ecom#readme",
-  "dependencies": {
-    "cookie-session": "^2.0.0",
-    "express": "^4.17.3",
-    "express-validator": "^6.14.0",
-    "multer": "^1.4.4",
-    "nodemon": "^2.0.15"
-  }
+	"name": "ecom",
+	"version": "1.0.0",
+	"description": "create an e-commerce app in JS",
+	"main": "index.js",
+	"scripts": {
+		"dev": "nodemon index.js --ignore '*.json'"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/DebakeDSP94/ecom.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/DebakeDSP94/ecom/issues"
+	},
+	"homepage": "https://github.com/DebakeDSP94/ecom#readme",
+	"dependencies": {
+		"cookie-session": "^2.0.0",
+		"express": "^4.17.3",
+		"express-validator": "^6.14.0",
+		"multer": "^1.4.4",
+		"nodemon": "^2.0.15"
+	}
 }
